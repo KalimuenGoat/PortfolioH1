@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projet Clip</title>
+    <link rel="stylesheet" href="projet.css" />
+  </head>
+  <body>
+    <body background="images/background.jpg"></body>
+    <nav id="profile">
+      <div class="profile">
+        <h1>Portfolio</h1>
+      </div>
+      <ul>
+        <a href="https://www.linkedin.com/in/paul-antoine-mouliac-6b9a86268/">
+          <li>Linkedin</li>
+        </a>
+        <a href="projet.html">
+          <li>Projets</li>
+        </a>
+        <a href="about.html">
+          <li>A Propos</li>
+        </a>
+      </ul>
+    </nav>
+
+    <section class="clipProject">
+      <video
+        id="VideofirstProject"
+        src="videos/Clip PA Mouliac - Osirus Jack - Ron Van Clief.mp4"
+        controls
+      ></video>
+      <header>
+        <h1>Clip Musical (2023)</h1>
+        <p>
+          Voici l'un de mes premiers projets que j'ai pu faire 
+          au début de ma première année en Motion Design, il 
+          s'agit d'un Clip Musical, j'ai essayé de l'agrémenter
+          par des effets élégants et remarquables. J'espère que 
+          celui-ci vous plait.
+        </p>
+      </header>
+    </section>
+    <nav id="slider">
+      <a href="about.html">
+      <div class="grayscale">
+        <img src="images/A propos.png" alt="A propos" />
+      </div>
+      </a>
+      <a href="index.html">
+        <img src="images/Home.png" alt="Page d'acceuil" />
+      </a>
+      <img src="images/Project 1.png" alt="Projet 1" />
+    </nav>
+    <nav id="swipe">
+      <img id="left" src="images/leftarrow.svg" alt="Swipe vers la gauche" />
+      <img id="right" src="images/rightarrow.svg" alt="Swipe vers la droite" />
+    </nav>
+    <div class="swipeMenu swipeActive"></div>
+    <script src="projet.js"></script>
+  </body>
+</html>
